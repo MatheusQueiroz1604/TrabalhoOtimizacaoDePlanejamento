@@ -1,0 +1,7 @@
+[
+  {"nome": "Produto1", "materias_primas": ["MP1", "MP2"], "tempo_fabricacao": 3},
+  {"nome": "Produto2", "materias_primas": ["MP3", "MP4"], "tempo_fabricacao": 4},
+  {"nome": "Produto3", "materias_primas": ["MP5", "MP6"], "tempo_fabricacao": 5},
+  {"nome": "Produto4", "materias_primas": ["MP7", "MP8"], "tempo_fabricacao": 6},
+  {"nome": "Produto5", "materias_primas": ["MP9", "MP10"], "tempo_fabricacao": 7}
+]
