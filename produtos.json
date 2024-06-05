@@ -1,7 +1,7 @@
 [
-  {"nome": "Produto1", "materias_primas": ["MP1", "MP2"], "tempo_fabricacao": 3},
-  {"nome": "Produto2", "materias_primas": ["MP3", "MP4"], "tempo_fabricacao": 4},
-  {"nome": "Produto3", "materias_primas": ["MP5", "MP6"], "tempo_fabricacao": 5},
-  {"nome": "Produto4", "materias_primas": ["MP7", "MP8"], "tempo_fabricacao": 6},
-  {"nome": "Produto5", "materias_primas": ["MP9", "MP10"], "tempo_fabricacao": 7}
+  {"nome": "Produto1", "materias_primas": [[{"nome": "MP1", "custo": 10, "limite_armazenamento": 70}, 6], [{"nome": "MP2", "custo": 15, "limite_armazenamento": 70}, 8]], "tempo_fabricacao": 2, "capacidade_producao": 10},
+  {"nome": "Produto2", "materias_primas": [[{"nome": "MP3", "custo": 5, "limite_armazenamento": 50}, 2], [{"nome": "MP4", "custo": 20, "limite_armazenamento": 70}, 9]], "tempo_fabricacao": 3, "capacidade_producao": 10},
+  {"nome": "Produto3", "materias_primas": [[{"nome": "MP5", "custo": 25, "limite_armazenamento": 40}, 5], [{"nome": "MP6", "custo": 30, "limite_armazenamento": 65}, 5]], "tempo_fabricacao": 4, "capacidade_producao": 10},
+  {"nome": "Produto4", "materias_primas": [[{"nome": "MP7", "custo": 8, "limite_armazenamento": 60}, 6], [{"nome": "MP8", "custo": 12, "limite_armazenamento": 45}, 4]], "tempo_fabricacao": 5, "capacidade_producao": 10},
+  {"nome": "Produto5", "materias_primas": [[{"nome": "MP9", "custo": 15, "limite_armazenamento": 50}, 8], [{"nome": "MP10", "custo": 10, "limite_armazenamento": 35}, 1]], "tempo_fabricacao": 6, "capacidade_producao": 10}
 ]
