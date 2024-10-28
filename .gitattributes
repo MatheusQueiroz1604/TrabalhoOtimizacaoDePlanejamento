@@ -1,0 +1,8 @@
+# Ignorar arquivos de dependências do Rust
+Cargo.lock linguist-generated
+
+# Contar todos os arquivos .rs como Rust, mesmo fora de src
+*.rs linguist-language=Rust
+
+# Marcar arquivos de documentação para não impactar a contagem de linguagem
+*.md linguist-documentation
